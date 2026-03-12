@@ -1,10 +1,18 @@
 # omarchy-terere
 
+<p align="center">
+  <img width="120" src="https://raw.githubusercontent.com/mateCreations/omarchy-terere/main/images/logo.jpg" alt="Mate" />
+</p>
+
 Light theme for [Omarchy](https://omarchy.org) — Tererê palette.
 
-Warm butter-paper background with amber, terracotta red, and forest green accents. Designed as a daytime counterpart to [omarchy-yerba-mate](https://github.com/nfvelten/omarchy-yerba-mate).
+Warm butter-paper background with amber, terracotta red, and forest green accents. Designed as a daytime counterpart to [omarchy-yerba-mate](https://github.com/mateCreations/omarchy-yerba-mate).
 
 ## Palette
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mateCreations/omarchy-terere/main/images/palette-terere.png" alt="Tererê palette" />
+</p>
 
 | Role        | Color     |
 |-------------|-----------|
@@ -25,30 +33,8 @@ omarchy-theme-install github.com/nfvelten/omarchy-terere
 Or manually:
 
 ```bash
-git clone https://github.com/nfvelten/omarchy-terere \
+git clone https://github.com/mateCreations/omarchy-terere \
   ~/.config/omarchy/themes/terere
 ```
 
-Then apply with:
-
-```bash
-omarchy-theme-set terere
-```
-
-## Files
-
-| File          | Purpose |
-|---------------|---------|
-| `colors.toml` | ANSI 16-color palette + terminal colors |
-| `btop.theme`  | Btop+ system monitor theme |
-| `waybar.css`  | Waybar status bar colors |
-| `neovim.lua`  | Neovim colorscheme selector |
-| `icons.theme` | Icon theme |
-| `vscode.json` | VSCode theme reference |
-| `light.mode`  | Flag file — marks this as a light theme |
-
-## Companion themes
-
-- Dark variant: [omarchy-yerba-mate](https://github.com/nfvelten/omarchy-yerba-mate)
-- Neovim colorscheme: [yerba-mate.nvim](https://github.com/nfvelten/yerba-mate.nvim)
-- Obsidian theme: [obsidian-yerba-mate](https://github.com/nfvelten/obsidian-yerba-mate)
+Part of the [Mate theme family](https://github.com/mateCreations) — available for Neovim, VSCode, Obsidian, and Zen Browser.
